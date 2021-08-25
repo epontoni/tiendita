@@ -1,0 +1,64 @@
+.header {
+    background: var(--white);
+    padding: 2.25rem 2.5rem;
+}
+
+.brand img {
+    width: 5.75rem;
+    height: 1rem;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation .location {
+    display: flex;
+    gap: .5rem;
+    border-right: 1px solid var(--boulder);
+    padding-right: 1rem;
+}
+.navigation .location i {
+    align-self: center;
+    color: var(--orange);
+    font-size: 2rem;
+}
+.navigation .location div {
+    align-self: center;
+}
+.navigation .location div span:first-of-type {
+    font: var(--body1-regular);
+    font-size: .75rem;
+}
+.navigation .location span {
+    display: block;
+    font: var(--body1-bold);
+    color: var(--cocoabrown);
+    line-height: 1rem;
+}
+
+.navigation .chart button {
+    background: var(--malachite);
+    border: none;
+    color: white;
+    padding: .6rem 1.5rem .6rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+}
+
+.navigation .chart button:hover {
+    cursor: pointer;
+    border: 1px solid var(--malachite);
+    color: var(--malachite);
+    background: var(--white);
+}
+
+.navigation .chart span {
+    font: var(--button);
+}
+
+.navigation a {
+    text-decoration: none;
+}

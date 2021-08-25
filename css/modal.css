@@ -1,0 +1,80 @@
+.modal {
+    background: var(--white);
+    border-radius: 1rem;
+    padding: 2.5rem;
+    border: none;
+    max-inline-size: 44rem;
+    inline-size: 100%;
+    box-sizing: border-box;
+}
+
+.modal::backdrop {
+    background: #332927;
+    opacity: 0.8;
+}
+
+.modal button.closeModal {
+    background: var(--cocoabrown);
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+}
+.modal .closeModal:hover {
+    cursor: pointer;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.modal-container h2 {
+    text-align: center;
+    font: var(--headline1);
+}
+
+.modal-container p {
+    font: var(--body1-regular);
+}
+
+.searchbox {
+    position: relative;
+}
+.modal-container input {
+    background: var(--white);
+    border: 1px solid #B8B4B4;
+    width: 100%;
+    border-radius: .5rem;
+    padding: .75rem  1rem .75rem 2rem;
+    box-sizing: border-box;
+    outline: none;
+}
+.modal-container form i {
+    position: absolute;
+    font-size: 1rem;
+    left: .5rem;
+    top: calc(50% - .5rem);
+    block-size: 1rem;
+}
+
+.modal-container form button {
+    margin-top: 1rem;
+    background: #0AC763;
+    color: var(--white);
+    border: none;
+    padding: .75rem 1.5rem;
+    border-radius: .5rem;
+    opacity: .5;
+    width: 100%;
+}
+.modal-container button:hover {
+    opacity: 1;
+    cursor: pointer;
+}

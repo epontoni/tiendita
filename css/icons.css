@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?sv2uka');
+  src:  url('../fonts/icomoon.eot?sv2uka#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?sv2uka') format('truetype'),
+    url('../fonts/icomoon.woff?sv2uka') format('woff'),
+    url('../fonts/icomoon.svg?sv2uka#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-American-Express .path1:before {
+  content: "\e900";
+  color: rgb(1, 111, 208);
+}
+.icon-American-Express .path2:before {
+  content: "\e901";
+  margin-left: -1.5625em;
+  color: rgb(254, 254, 254);
+}
+.icon-American-Express .path3:before {
+  content: "\e902";
+  margin-left: -1.5625em;
+  color: rgb(1, 111, 208);
+}
+.icon-American-Express .path4:before {
+  content: "\e903";
+  margin-left: -1.5625em;
+  color: rgb(1, 111, 208);
+}
+.icon-American-Express .path5:before {
+  content: "\e904";
+  margin-left: -1.5625em;
+  color: rgb(254, 254, 254);
+}
+.icon-American-Express .path6:before {
+  content: "\e905";
+  margin-left: -1.5625em;
+  color: rgb(1, 111, 208);
+}
+.icon-American-Express .path7:before {
+  content: "\e906";
+  margin-left: -1.5625em;
+  color: rgb(1, 111, 208);
+}
+.icon-CVC-Card .path1:before {
+  content: "\e907";
+  color: rgb(51, 51, 51);
+  opacity: 0.2;
+}
+.icon-CVC-Card .path2:before {
+  content: "\e908";
+  margin-left: -1.470703125em;
+  color: rgb(51, 51, 51);
+}
+.icon-CVC-Card .path3:before {
+  content: "\e909";
+  margin-left: -1.470703125em;
+  color: rgb(51, 51, 51);
+}
+.icon-Discover .path1:before {
+  content: "\e90a";
+  color: rgb(254, 254, 254);
+}
+.icon-Discover .path2:before {
+  content: "\e90b";
+  margin-left: -1.5625em;
+  color: rgb(242, 119, 18);
+}
+.icon-Discover .path3:before {
+  content: "\e90c";
+  margin-left: -1.5625em;
+  color: rgb(51, 41, 39);
+}
+.icon-Discover .path4:before {
+  content: "\e90d";
+  margin-left: -1.5625em;
+  color: rgb(242, 119, 18);
+}
+.icon-Mastercard .path1:before {
+  content: "\e90e";
+  color: rgb(51, 41, 39);
+}
+.icon-Mastercard .path2:before {
+  content: "\e90f";
+  margin-left: -1.5625em;
+  color: rgb(235, 0, 27);
+}
+.icon-Mastercard .path3:before {
+  content: "\e910";
+  margin-left: -1.5625em;
+  color: rgb(247, 158, 27);
+}
+.icon-Mastercard .path4:before {
+  content: "\e911";
+  margin-left: -1.5625em;
+  color: rgb(255, 95, 0);
+}
+.icon-Property-1chevron-down:before {
+  content: "\e912";
+  color: #0ac763;
+}
+.icon-Property-1chevron-left:before {
+  content: "\e913";
+}
+.icon-Property-1map-pin:before {
+  content: "\e914";
+}
+.icon-Property-1minus:before {
+  content: "\e915";
+}
+.icon-Property-1plus:before {
+  content: "\e916";
+}
+.icon-Property-1Radio-button-active .path1:before {
+  content: "\e917";
+  color: rgb(51, 41, 39);
+}
+.icon-Property-1Radio-button-active .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(10, 199, 99);
+}
+.icon-Property-1Radio-button-default:before {
+  content: "\e919";
+}
+.icon-Property-1shopping-cart:before {
+  content: "\e91a";
+}
+.icon-Property-1x:before {
+  content: "\e91b";
+  color: #fefefe;
+}
+.icon-Visa .path1:before {
+  content: "\e91c";
+  color: rgb(254, 254, 254);
+}
+.icon-Visa .path2:before {
+  content: "\e91d";
+  margin-left: -1.5625em;
+  color: rgb(51, 41, 39);
+}
